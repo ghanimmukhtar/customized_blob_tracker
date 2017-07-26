@@ -14,7 +14,7 @@ int main(int argc, const char** argv)
 {
 #if (VISP_HAVE_OPENCV_VERSION >= 0x020100) && (defined(VISP_HAVE_ZBAR) || defined(VISP_HAVE_DMTX))
   int opt_device = 0;
-  int opt_barcode = 1; // 0=QRCode, 1=DataMatrix
+  int opt_barcode = 0; // 0=QRCode, 1=DataMatrix
 
   for (int i=0; i<argc; i++) {
     if (std::string(argv[i]) == "--device")
