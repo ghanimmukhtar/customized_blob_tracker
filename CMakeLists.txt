@@ -16,8 +16,11 @@ set(tutorial_cpp
   tutorial-blob-tracker-video.cpp
   tutorial-blob-auto-tracker.cpp
   tutorial-blob-tracker-live-firewire.cpp
+  tutorial-kinect-mbt-tracker.cpp
   tutorial-blob-tracker-live-v4l2.cpp
-  tutorial-blob-tracker-kinect.cpp)
+  tutorial-blob-tracker-kinect.cpp
+  tutorial-template-track.cpp
+  )
 
 list(APPEND tutorial_data "${CMAKE_CURRENT_SOURCE_DIR}/target.pgm" )
 
